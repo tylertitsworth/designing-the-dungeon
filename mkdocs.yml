@@ -1,0 +1,50 @@
+---
+site_name: Designing the Dungeon
+site_description: A Digital Garden for Dungeons and Dragons
+site_author: Tyler Titsworth
+site_url: https://tylertitsworth.github.io/designing-the-dungeon/
+nav:
+  - Introduction: index.md
+plugins:
+  - search
+  - autolinks
+  - git-revision-date-localized:
+      type: timeago
+  - minify:
+      minify_html: true
+  - section-index
+markdown_extensions:
+  - abbr
+  - admonition
+  - attr_list
+  - meta
+  - def_list
+  - toc:
+      permalink: ⚑
+      baselevel: 2
+  - pymdownx.arithmatex
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.magiclink
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+theme:
+  name: material
+  features:
+    - navigation.footer
+    - navigation.instant
+    - navigation.top
+    - content.code.annotate
+    - search.suggest
+    - search.highlight
+repo_name: tylertitsworth/designing-the-dungeon
+repo_url: https://github.com/tylertitsworth/designing-the-dungeon
