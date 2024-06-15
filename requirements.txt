@@ -1,7 +1,9 @@
-mkdocs-material==9.5.26
-mkdocs==1.6.0
+mkdocs-autolinks-plugin>=0.7.1
+mkdocs-exclude-search==0.6.6
 mkdocs-git-revision-date-localized-plugin>=1.2.5
+mkdocs-material==9.5.26
 mkdocs-minify-plugin>=0.8.0
 mkdocs-section-index>=0.3.9
+mkdocs-newsletter==1.1.0
+mkdocs==1.6.0
 pymdown-extensions>=10.8.1
-mkdocs-autolinks-plugin>=0.7.1

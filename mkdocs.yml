@@ -6,10 +6,13 @@ site_url: https://tylertitsworth.github.io/designing-the-dungeon/
 nav:
   - Introduction: index.md
 plugins:
-  - search
   - autolinks
+  - search:
+  - exclude-search:
+      exclude: [newsletter/*]
   - git-revision-date-localized:
       type: timeago
+  - mkdocs-newsletter
   - minify:
       minify_html: true
   - section-index
@@ -46,5 +49,11 @@ theme:
     - content.code.annotate
     - search.suggest
     - search.highlight
+extra:
+  social:
+    - icon: fontawesome/brands/github-alt
+      link: https://github.com/tylertitsworth
+    - icon: fontawesome/solid/rss
+      link: https://tylertitsworth.github.io/tylertitsworth/newsletter/0_newsletter_index
 repo_name: tylertitsworth/designing-the-dungeon
 repo_url: https://github.com/tylertitsworth/designing-the-dungeon

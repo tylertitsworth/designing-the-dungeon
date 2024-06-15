@@ -2,3 +2,4 @@
 extends: default
 rules:
   new-lines: false
+  line-length: false
