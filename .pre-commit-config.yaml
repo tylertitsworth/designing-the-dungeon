@@ -4,6 +4,7 @@ ci:
   autofix_prs: true
   autoupdate_commit_msg: "[pre-commit.ci] pre-commit autoupdate"
   autoupdate_schedule: "weekly"
+  skip: [mkdocs]
 repos:
   - repo: https://github.com/pre-commit/pre-commit-hooks
     rev: v3.1.0
@@ -23,3 +24,11 @@ repos:
     hooks:
       - id: yamllint
         args: ['-c=.yamllint.yml']
+  - repo: local
+    hooks:
+      - id: mkdocs
+        name: mkdocs
+        entry: mkdocs build --clean
+        language: system
+        pass_filenames: false
+        always_run: true
