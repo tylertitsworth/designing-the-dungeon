@@ -5,17 +5,18 @@ site_author: Tyler Titsworth
 site_url: https://tylertitsworth.github.io/designing-the-dungeon/
 nav:
   - Introduction: index.md
+  - Projects: projects.md
 plugins:
   - autolinks
-  - search:
+  - search
   - exclude-search:
       exclude: [newsletter/*]
   - git-revision-date-localized:
       type: timeago
-  - mkdocs-newsletter
   - minify:
       minify_html: true
   - section-index
+  - mkdocs-newsletter
 markdown_extensions:
   - abbr
   - admonition
@@ -49,11 +50,33 @@ theme:
     - content.code.annotate
     - search.suggest
     - search.highlight
+  font:
+    text: Cabin
+    code: Ubuntu
+  logo: assets/bwlogo.png
+  palette:
+    # Light mode
+    - media: '(prefers-color-scheme: light)'
+      scheme: default
+      primary: deep purple
+      accent: grey
+      toggle:
+        icon: material/lightbulb-off-outline
+        name: Switch to dark mode
+
+    # Dark mode
+    - media: '(prefers-color-scheme: dark)'
+      scheme: slate
+      primary: deep purple
+      accent: blue grey
+      toggle:
+        icon: material/lightbulb
+        name: Switch to light mode
 extra:
   social:
     - icon: fontawesome/brands/github-alt
       link: https://github.com/tylertitsworth
     - icon: fontawesome/solid/rss
-      link: https://tylertitsworth.github.io/tylertitsworth/newsletter/0_newsletter_index
+      link: https://tylertitsworth.github.io/designing-the-dungeon/newsletter/0_newsletter_index
 repo_name: tylertitsworth/designing-the-dungeon
 repo_url: https://github.com/tylertitsworth/designing-the-dungeon

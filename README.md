@@ -1,4 +1,4 @@
-# Designing the Dungeon
+# [Designing the Dungeon](https://tylertitsworth.github.io/designing-the-dungeon/)
 
 This is my personal D&D wiki where I share everything I know about Dungeons and Dragons. This wiki is meant to be read in the web format.
 
