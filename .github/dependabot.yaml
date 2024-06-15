@@ -4,7 +4,7 @@ updates:
   - directory: /
     package-ecosystem: github-actions
     schedule:
-      interval: weekly
+      interval: monthly
   - directory: /
     groups:
       docs:
@@ -12,4 +12,4 @@ updates:
           - "*"
     package-ecosystem: pip
     schedule:
-      interval: weekly
+      interval: monthly
