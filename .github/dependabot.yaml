@@ -5,7 +5,7 @@ updates:
     package-ecosystem: github-actions
     schedule:
       interval: weekly
-  - directory: /docs
+  - directory: /
     groups:
       docs:
         patterns:
