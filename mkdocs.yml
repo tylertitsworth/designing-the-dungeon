@@ -3,20 +3,13 @@ site_name: Designing the Dungeon
 site_description: A Digital Garden for Dungeons and Dragons
 site_author: Tyler Titsworth
 site_url: https://tylertitsworth.github.io/designing-the-dungeon/
-nav:
-  - Introduction: index.md
-  - Projects: projects.md
 plugins:
   - autolinks
-  - search
-  - exclude-search:
-      exclude: [newsletter/*]
-  - git-revision-date-localized:
-      type: timeago
+  - git-revision-date-localized
   - minify:
       minify_html: true
+  - search
   - section-index
-  - mkdocs-newsletter
 markdown_extensions:
   - abbr
   - admonition
@@ -63,7 +56,6 @@ theme:
       toggle:
         icon: material/lightbulb-off-outline
         name: Switch to dark mode
-
     # Dark mode
     - media: '(prefers-color-scheme: dark)'
       scheme: slate
@@ -72,11 +64,5 @@ theme:
       toggle:
         icon: material/lightbulb
         name: Switch to light mode
-extra:
-  social:
-    - icon: fontawesome/brands/github-alt
-      link: https://github.com/tylertitsworth
-    - icon: fontawesome/solid/rss
-      link: https://tylertitsworth.github.io/designing-the-dungeon/newsletter/0_newsletter_index
 repo_name: tylertitsworth/designing-the-dungeon
 repo_url: https://github.com/tylertitsworth/designing-the-dungeon

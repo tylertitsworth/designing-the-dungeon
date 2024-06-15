@@ -12,4 +12,4 @@ The reason that I'm making this is the same reason any of the above have done it
 
 ## Planting New Seeds
 
-If you want to follow me in this journey, check out my [Projects](projects.md) and see what I'm working on, and if you want the latest updates just check the [Newsletters](0_newsletter_index.md).
+If you want to follow me in this journey, check out my [Projects](projects.md) and see what I'm working on.
